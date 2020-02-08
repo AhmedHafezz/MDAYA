@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import MDAYA
+
 class MDAYATests: XCTestCase {
 
     override func setUp() {

@@ -10,6 +10,7 @@
 		A2B09061FB1CAF1471C1D5BA /* Pods_MDAYA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D7F9D88B7FBBA144725236 /* Pods_MDAYA.framework */; };
 		E32C10FC23D9EA0300761770 /* HomeCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32C10FB23D9EA0300761770 /* HomeCollectionVC.swift */; };
 		E3316AC423E3309E005837E9 /* productGlassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3316AC323E3309E005837E9 /* productGlassModel.swift */; };
+		E335B8FB23EDFFA90039CCAE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335B8FA23EDFFA90039CCAE /* Helpers.swift */; };
 		E354FCA723E0A4AD00452B5E /* MainHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354FCA623E0A4AD00452B5E /* MainHomeCollectionViewCell.swift */; };
 		E356EDF723D7941200FDD019 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E356EDF623D7941200FDD019 /* Podfile */; };
 		E38EB6C923D5E1B700C46069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38EB6C823D5E1B700C46069 /* AppDelegate.swift */; };
@@ -17,8 +18,6 @@
 		E38EB6D023D5E1B700C46069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38EB6CE23D5E1B700C46069 /* Main.storyboard */; };
 		E38EB6D223D5E1BD00C46069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38EB6D123D5E1BD00C46069 /* Assets.xcassets */; };
 		E38EB6D523D5E1BD00C46069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38EB6D323D5E1BD00C46069 /* LaunchScreen.storyboard */; };
-		E38EB6E023D5E1BD00C46069 /* MDAYATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38EB6DF23D5E1BD00C46069 /* MDAYATests.swift */; };
-		E38EB6EB23D5E1BD00C46069 /* MDAYAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38EB6EA23D5E1BD00C46069 /* MDAYAUITests.swift */; };
 		E38EB6FD23D603EF00C46069 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38EB6FC23D603EF00C46069 /* LoginVC.swift */; };
 		E38EB6FF23D6050600C46069 /* RestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38EB6FE23D6050600C46069 /* RestVC.swift */; };
 		E38EB70123D605B800C46069 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38EB70023D605B800C46069 /* RegisterVC.swift */; };
@@ -48,6 +47,7 @@
 		BE0181F06AEF04A63618C761 /* Pods-MDAYA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDAYA.release.xcconfig"; path = "Target Support Files/Pods-MDAYA/Pods-MDAYA.release.xcconfig"; sourceTree = "<group>"; };
 		E32C10FB23D9EA0300761770 /* HomeCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionVC.swift; sourceTree = "<group>"; };
 		E3316AC323E3309E005837E9 /* productGlassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productGlassModel.swift; sourceTree = "<group>"; };
+		E335B8FA23EDFFA90039CCAE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		E354FCA623E0A4AD00452B5E /* MainHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		E356EDF623D7941200FDD019 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E38EB6C523D5E1B700C46069 /* MDAYA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDAYA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,11 +58,7 @@
 		E38EB6D423D5E1BD00C46069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E38EB6D623D5E1BD00C46069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E38EB6DB23D5E1BD00C46069 /* MDAYATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDAYATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E38EB6DF23D5E1BD00C46069 /* MDAYATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDAYATests.swift; sourceTree = "<group>"; };
-		E38EB6E123D5E1BD00C46069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E38EB6E623D5E1BD00C46069 /* MDAYAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDAYAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E38EB6EA23D5E1BD00C46069 /* MDAYAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDAYAUITests.swift; sourceTree = "<group>"; };
-		E38EB6EC23D5E1BD00C46069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E38EB6FC23D603EF00C46069 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E38EB6FE23D6050600C46069 /* RestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestVC.swift; sourceTree = "<group>"; };
 		E38EB70023D605B800C46069 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
@@ -131,8 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				E38EB6C723D5E1B700C46069 /* MDAYA */,
-				E38EB6DE23D5E1BD00C46069 /* MDAYATests */,
-				E38EB6E923D5E1BD00C46069 /* MDAYAUITests */,
 				E38EB6C623D5E1B700C46069 /* Products */,
 				2804829FE8B9A527E5C795DD /* Pods */,
 				4FE9B3997936699261E722E7 /* Frameworks */,
@@ -164,26 +158,9 @@
 				E38EB6D323D5E1BD00C46069 /* LaunchScreen.storyboard */,
 				E38EB6D623D5E1BD00C46069 /* Info.plist */,
 				E38EB70C23D60DFC00C46069 /* localizable.strings */,
+				E335B8FA23EDFFA90039CCAE /* Helpers.swift */,
 			);
 			path = MDAYA;
-			sourceTree = "<group>";
-		};
-		E38EB6DE23D5E1BD00C46069 /* MDAYATests */ = {
-			isa = PBXGroup;
-			children = (
-				E38EB6DF23D5E1BD00C46069 /* MDAYATests.swift */,
-				E38EB6E123D5E1BD00C46069 /* Info.plist */,
-			);
-			path = MDAYATests;
-			sourceTree = "<group>";
-		};
-		E38EB6E923D5E1BD00C46069 /* MDAYAUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E38EB6EA23D5E1BD00C46069 /* MDAYAUITests.swift */,
-				E38EB6EC23D5E1BD00C46069 /* Info.plist */,
-			);
-			path = MDAYAUITests;
 			sourceTree = "<group>";
 		};
 		E38EB6F823D602DB00C46069 /* Login */ = {
@@ -392,6 +369,7 @@
 				E32C10FC23D9EA0300761770 /* HomeCollectionVC.swift in Sources */,
 				E38EB6FD23D603EF00C46069 /* LoginVC.swift in Sources */,
 				E38EB6FF23D6050600C46069 /* RestVC.swift in Sources */,
+				E335B8FB23EDFFA90039CCAE /* Helpers.swift in Sources */,
 				E354FCA723E0A4AD00452B5E /* MainHomeCollectionViewCell.swift in Sources */,
 				E38EB6CB23D5E1B700C46069 /* SceneDelegate.swift in Sources */,
 				E3316AC423E3309E005837E9 /* productGlassModel.swift in Sources */,
@@ -403,7 +381,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E38EB6E023D5E1BD00C46069 /* MDAYATests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +388,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E38EB6EB23D5E1BD00C46069 /* MDAYAUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

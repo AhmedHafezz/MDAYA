@@ -25,11 +25,20 @@ class LoginVC: UIViewController  {
     var ind : UIActivityIndicatorView!
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
        // ind  =  UIActivityIndicatorView.init(style: .UIActivityIndicatorView.Style.large)
        //self.view.addsubview(ind)
         
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.createAccount.isUserInteractionEnabled = true
+        self.forgetpaaswordBtn.isUserInteractionEnabled = true
+        
     }
     @IBAction func LoginBut(_ sender: Any) {
         
@@ -70,7 +79,7 @@ class LoginVC: UIViewController  {
                     
                     let data = json["data"].dictionaryValue
                         //as! [String : Any]
-                    UserDefaults.standard.set(data["access_token"]?.stringValue
+                   let def = UserDefaults.standard.set(data["access_token"]?.stringValue
                         , forKey: "accessToken")
                     print("successful login")
                     
@@ -88,12 +97,11 @@ class LoginVC: UIViewController  {
                         alert.addAction(okAction)
                         self.present(alert, animated: true, completion: nil)
                         
-                    }
+                     }
                      
-                }
-
-   }
- }
+                   }
+               }
+        }
         
         
 }
@@ -113,7 +121,11 @@ class LoginVC: UIViewController  {
     
     
     // action register button
-    
+    @IBAction func RegisterBtn(_ sender: Any) {
+
+//        self.createAccount.isUserInteractionEnabled = false
+        self.performSegue(withIdentifier: "showRegister", sender: nil)
+    }
     
 
 }

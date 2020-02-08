@@ -7,6 +7,78 @@
 //
 
 import Foundation
+import  SwiftyJSON
+
+struct productGlassModel {
+    
+    
+  
+    var values : [String : Any] = [:]
+    var cat_link :String {
+        get {
+            values["cat_link"] as! String
+        }set (value) {
+            values["cat_link"] = value
+        }
+    }
+    
+    var name : String {
+        get {
+            values["name"] as! String
+        }
+        set (value) {
+            values["name"] = value
+        }
+    }
+    
+    var cat_name : String {
+        get {
+            values["cat_name"] as! String
+           }
+        set (value) {
+            values["cat_name"] = value
+        } 
+    }
+    
+    
+    var image : String {
+
+        get {
+            values ["image"] as! String
+        }
+        set (value) {
+
+           values ["image"] = value
+        }
+    }
+  
+    
+    init(obj:[String : Any] ) {
+        for (key, value) in obj {
+            values[key] = value
+        }
+    }
+    
+}
+
+
+//class modle {
+//
+//    var image = [String] ()
+//
+//      init(obj : Dictionary<String, AnyObject>) {
+//
+//        if let image = obj ["images"] as?  [String]{
+//
+//            self.image = image
+//
+//            print("this is the immages \(image)")
+//
+//        }
+//
+//    }
+//        
+//}
 //
 ////class productGlassModel : Dictionary<Key: Hashable, Any> {
 ////
@@ -63,14 +135,14 @@ import Foundation
 ////                    {
 ////                        "weight": "",
 ////                        "code": "65467897987",
-////                        "price": "23",
+////                        "pripce": "23",
 ////                        "discount": 0
 ////                    }
 ////                ],
 ////                "color": [],
 ////                "weight": [
 ////                    {
-////                        "name": ""
+////                        "name": ""f
 ////                    }
 ////                ],
 ////                "city_made": "",
